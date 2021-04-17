@@ -1,6 +1,7 @@
-a = float(input("insira o valor de a: "))
-b = float(input("insira o valor de b: "))
+a = int(input("Digite o valor de a: "))
 if a == 0:
-    print("equação sem solução")
+    print("não posso dividir por zero")
 else:
-    print(-b / a)
+    b = int(input("Digite o valor de b: "))
+    x = -b / a
+    print(x)
